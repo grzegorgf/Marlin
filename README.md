@@ -1,3 +1,13 @@
+# Marlin Firmware adaptation for SPENSER
+This is a fork of 1.1.x Marlin branch used as a firmware for Solid Phase ElectroNic SynthesizER.
+Some minor changes were made:
+- implemented E axis endstop (as per thread https://github.com/MarlinFirmware/Marlin/issues/8519; adjustment by Bob-the-Kuhn)
+- changed the M400 response string to be unique for more stable synchronization
+- changed M117 print command logic to cover the entire 2004 display 
+
+
+As an Open Source project hosted on Github, Marlin is owned and maintained by the maker community. Please do not use this code in products (3D printers, CNC etc) that are closed source or are crippled by a patent.
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
